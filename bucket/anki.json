@@ -2,9 +2,9 @@
     "homepage": "https://apps.ankiweb.net/",
     "license": "AGPL-3.0-only",
     "description": "Powerful, intelligent flash cards. Remembering things just became much easier.",
-    "version": "2.1.13",
-    "url": "https://apps.ankiweb.net/downloads/current/anki-2.1.13-windows.exe#/dl.7z",
-    "hash": "f03ec672079c1a27a308519bb42d7439f4c3401dbb83947c5f15defbf3d6a19e",
+    "version": "2.0.52",
+    "url": "https://apps.ankiweb.net/downloads/archive/anki-2.0.52.exe",
+    "hash": "94e3b9840382d8a66ef1153c4b1435e83bdda2a22d7044b0f5b9131deb9ace4b",
     "persist": "data",
     "bin": [
         [
@@ -29,9 +29,9 @@
         "re": "Changes in ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://apps.ankiweb.net/downloads/current/anki-$version-windows.exe#/dl.7z",
+        "url": "https://apps.ankiweb.net/downloads/archive/anki-2.0.52.exe",
         "hash": {
-            "url": "https://apps.ankiweb.net/downloads/current/anki-$version-checksums.txt"
+            "url": "https://apps.ankiweb.net/downloads/archive/anki-2.0.52-checksums.txt"
         }
     }
 }
